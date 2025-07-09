@@ -1,0 +1,16 @@
+@media screen and (max-width:600px) {
+    header {
+        padding:20px 15px;
+    }
+    header .right_wrap .menu {display:none;}
+    header .right_wrap .icon a:nth-of-type(3) {display:inline-block;}
+    main #main_title {
+        padding:20px 15px 0;
+    }
+    main #news_all .container .card {overflow:hidden;}
+    main #news_all {padding:30px 15px;}
+    main #news_all .container .top {
+        display:flex; flex-flow:row wrap;
+    }
+    footer {padding:50px 15px;}
+}
